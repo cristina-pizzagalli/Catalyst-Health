@@ -1,0 +1,239 @@
+html, body {
+}  
+html {overflow-y: scroll;}
+body {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color: #0c2c49;
+  line-height: 1.4;
+  background: #ffffff url(../images/pattern.jpg);
+}
+strong {
+  font-weight: bold;
+}
+h1 {
+  font-weight: 200;
+  font-size: 70px;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 1;
+}
+h1 strong {
+  font-weight: 600;
+}
+h2 {
+  margin: 40px 0px 0px 0px;
+  font-weight: 600;
+  font-size: 28px;
+}
+h3 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+p {
+  font-weight: 300;
+  margin: 30px 0px;
+  max-width: 700px;
+  line-height: 1.6;
+}
+p a {
+  color: #f05231;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; 
+}
+p a:hover {
+  color: #0c2c49;
+}
+#content ul {
+  display: block;
+  margin: 0px 0px 0px 18px;
+}
+#content ul li {
+ list-style-type: disc;
+ margin: 0px 0px 5px 0px;
+}
+.wrapper {
+  display: block;
+  width: 90%;
+  max-width: 900px;
+  margin: 0px auto;
+}
+#header {
+  display: block;
+  width: 100%;
+  background: #273644;
+  padding: 30px 0px 60px 0px;
+  overflow: hidden;
+}
+#header .logo {
+  display: block;
+  float: left;
+  padding: 0px 0px 80px 30px;
+}
+#header .logo img {
+  width: 144px;
+}
+body.about #header {
+  background: url(../images/about-us-bg.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body.careers #header {
+  background: url(../images/careers-bg.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body.services #header {
+  background: url(../images/services-bg.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#content {
+  display: block;
+  padding: 50px 0px 40px 0px;
+}
+ul#tabs {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin: 0px;
+}
+ul#tabs li {
+  display: inline-block;
+  margin: 0px 5px 5px 0px;
+  color: #f05231;
+  border: 1px solid #f05231;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 2px 20px;
+  font-size: 19px;
+  cursor: pointer;
+  cursor: hand;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; 
+}
+ul#tabs li:hover {
+  color: #ffffff;
+  background-color: #f05231;
+}
+ul#tabs li.active {
+  color: #ffffff;
+  background-color: #f05231;
+}
+ul#tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul#tab li.tabbed {
+    display: none;
+}
+ul#tab li.tabbed.active {
+    display: block;
+}
+#footer {
+  margin: 80px 0px 0px 0px;
+  display: block;
+}
+#footer .wrapper {
+  border-top: 2px solid #0c2c49;
+}
+#footer .wrapper ul {
+  display: table;
+  margin: 40px 0px;
+}
+#footer .wrapper ul li {
+  display: table-cell;
+  margin: 40px 0px;
+  width: 25%;
+}
+#footer .wrapper ul li h3 {
+  margin: 0px 25px 20px 10px;
+}
+#footer .wrapper ul li p {
+  margin: 0px 25px 10px 10px;
+  font-size: 14px;
+}
+#footer .wrapper ul li a.org-link {
+  display: inline-block;
+  margin: 10px 10px 20px 10px;
+  color: #f05231;
+  border: 1px solid #f05231;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 2px 20px;
+  font-size: 19px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; 
+}
+#footer .wrapper ul li a.org-link:hover {
+  background: #f05231;
+  color: #ffffff;
+}
+#footer .wrapper ul li a.inline {
+  color: #f05231;
+  display: block;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; 
+}
+#footer .wrapper ul li a.inline:hover {
+  color: #0c2c49;
+}
+#footer .wrapper .social {
+  display: block;
+  float: left;
+  border-right: 1px solid #f05231;
+  padding: 5px 10px;
+  margin: 0px 0px 20px 0px;
+}
+#footer .wrapper .social.last {
+  border-right: none;
+}
+#footer .wrapper .social img {
+  display: block;
+  width: 40px;
+}
+#footer .wrapper .legal {
+  font-size: 12px;
+  margin: 0px 0px 40px 10px;
+  float: left;
+}
+#footer .wrapper .credit {
+  font-size: 12px;
+  margin: 0px 0px 40px 10px;
+  float: right;
+}
+#footer .wrapper .credit a {
+  color: #797979;
+  text-decoration: none;  
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#footer .wrapper .credit a:hover {
+  text-decoration: underline;  
+}
+.clear {
+  display: block;
+  clear: both;
+}
+#contact {
+  display: block;
+  width: 100%;
+  background: url(../images/contact-bg.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: scroll;
+  padding: 40px 0px;
+  overflow: hidden;
+}
+.no-touch #contact {
+  background-attachment: fixed;
+}
+
