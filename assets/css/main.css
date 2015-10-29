@@ -130,7 +130,7 @@ body.home #header p {
 }
 body.home #header a.home-header {
   display: inline-block;
-  margin: 10px 10px 20px 0px;
+  margin: 10px 10px 10px 0px;
   color: #fff;
   border: 1px solid #f05231;
   font-weight: 700;

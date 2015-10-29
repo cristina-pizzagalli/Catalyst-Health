@@ -1,9 +1,22 @@
+@media screen and (max-width: 900px) {
+  #content ul.mission-home {
+  display: table;
+  width: 100%;
+  margin: 80px auto;
+}
+}
 @media screen and (max-width: 820px) {
   h1 {
     font-weight: 200;
     font-size: 50px;
     text-transform: uppercase;
     color: #ffffff;
+  }
+  #gallery-cta h1 {
+    font-size: 40px;
+  }
+  body.home #header h1 {
+    font-size: 40px;
   }
   #header {
     display: block;
@@ -45,5 +58,17 @@
     background: url(../images/home-gallery-callout.jpg) no-repeat left;
     background-size: cover;
     background-attachment: fixed;
+  }
+}
+@media screen and (max-width: 800px) {
+  #content ul.mission-home {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+  }
+  #content  ul.mission-home li {
+    display: block;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
   }
 }
