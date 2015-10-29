@@ -177,7 +177,7 @@ body.home #header a.home-header:hover {
   background: #273644;
   padding: 80px 0px 60px 0px;
   overflow: hidden;
-  background: url(../images/home-gallery-callout.jpg) no-repeat bottom;
+  background: url(../images/home-gallery-callout.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }

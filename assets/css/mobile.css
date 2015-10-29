@@ -36,4 +36,14 @@
     padding: 20px 0px;
     border-bottom: 1px solid #0c2c49;
   }
+  #gallery-cta {
+    display: block;
+    width: 100%;
+    background: #273644;
+    padding: 80px 0px 60px 0px;
+    overflow: hidden;
+    background: url(../images/home-gallery-callout.jpg) no-repeat left;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 }
