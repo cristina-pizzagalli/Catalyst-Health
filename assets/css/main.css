@@ -91,9 +91,48 @@ body.services #header {
   background-size: cover;
   background-attachment: fixed;
 }
+body.media #header {
+  background: url(../images/media-bg.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 #content {
   display: block;
   padding: 50px 0px 40px 0px;
+}
+.media-link {
+  padding: 40px 0px;
+}
+.media-link h2 {
+  font-size: 23px;
+  line-height: 1.2;
+  margin: 15px 0px 20px 0px;
+}
+.media-link p {
+  font-weight: 300;
+  margin: 15px 0px;
+}
+.media-link a {
+  color: #f05231;
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; 
+}
+.media-link a img {
+  height: 24px;
+  float: right;
+  margin: 0px 0px 0px 5px;
+}
+.media-link a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+.media-link h2 strong {
+  font-size: 17px;
+  font-weight: 300;
 }
 ul#tabs {
     list-style-type: none;
