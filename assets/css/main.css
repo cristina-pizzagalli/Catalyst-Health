@@ -96,6 +96,11 @@ body.media #header {
   background-size: cover;
   background-attachment: fixed;
 }
+body.member #header {
+  background: url(../images/member-bg.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 #content {
   display: block;
   padding: 50px 0px 40px 0px;
