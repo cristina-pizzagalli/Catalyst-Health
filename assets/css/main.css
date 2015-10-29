@@ -101,6 +101,86 @@ body.member #header {
   background-size: cover;
   background-attachment: fixed;
 }
+body.team #header {
+  background: url(../images/team-bg.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body.gallery #header {
+  background: url(../images/gallery-bg.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body.home #header {
+  background: url(../images/home-bg.jpg) no-repeat bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body.home #header .logo {
+  display: block;
+  float: left;
+  padding: 0px 0px 40px 30px;
+}
+body.home #header h1 {
+  font-size: 54px;
+}
+body.home #header p {
+  color: #ffffff;
+  max-width: 500px;
+}
+body.home #header a.home-header {
+  display: inline-block;
+  margin: 10px 10px 20px 0px;
+  color: #fff;
+  border: 1px solid #f05231;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;
+  padding: 8px 30px;
+  font-size: 19px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; 
+}
+body.home #header a.home-header:hover {
+  color: #ffffff;
+  background-color: #f05231;
+}
+#gallery-cta h1 {
+  font-size: 54px;
+}
+#gallery-cta p {
+  color: #ffffff;
+  max-width: 500px;
+}
+#gallery-cta a.home-header {
+  display: inline-block;
+  margin: 10px 10px 20px 0px;
+  color: #fff;
+  border: 1px solid #f05231;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;
+  padding: 8px 30px;
+  font-size: 19px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; 
+}
+#gallery-cta a.home-header:hover {
+  color: #ffffff;
+  background-color: #f05231;
+}
+#gallery-cta {
+  display: block;
+  width: 100%;
+  background: #273644;
+  padding: 80px 0px 60px 0px;
+  overflow: hidden;
+  background: url(../images/home-gallery-callout.jpg) no-repeat bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
 #content {
   display: block;
   padding: 50px 0px 40px 0px;
@@ -184,8 +264,14 @@ ul#tab li.tabbed.active {
   margin: 80px 0px 0px 0px;
   display: block;
 }
+body.home #footer {
+  margin: 40px 0px 0px 0px;
+}
 #footer .wrapper {
   border-top: 2px solid #0c2c49;
+}
+body.home #footer .wrapper {
+  border-top: none;
 }
 #footer .wrapper ul {
   display: table;
