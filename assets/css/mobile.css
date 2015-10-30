@@ -1,9 +1,14 @@
 @media screen and (max-width: 900px) {
   #content ul.mission-home {
-  display: table;
-  width: 100%;
-  margin: 80px auto;
+    display: table;
+    width: 100%;
+    margin: 80px auto;
+  }
 }
+@media screen and (max-width: 900px) {
+  .popup-gallery img {
+    margin: 0 2% 2% 0;
+  }
 }
 @media screen and (max-width: 820px) {
   h1 {
@@ -85,6 +90,9 @@
     float: none;
     overflow: hidden;
     margin: 40px 0px;
+  }
+  .gallery-wrapper {
+    margin: 20px 0px;
   }
 }
 @media screen and (max-width: 500px) {

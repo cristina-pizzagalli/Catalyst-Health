@@ -1,4 +1,4 @@
-home.html<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Catalyst:: Gallery</title>
@@ -16,11 +16,31 @@ home.html<!DOCTYPE html>
 
   <!-- bxSlider CSS file -->
   <link rel="stylesheet" type="text/css" href="assets/css/jPushMenu.css" />
-  <script src="assets/js/jPushMenu.js"></script>      
+  <script src="assets/js/jPushMenu.js"></script>  
+  <!-- Magnific Popup core CSS file -->
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+  <!-- Magnific Popup core JS file -->
+  <script src="assets/js/jquery.magnific-popup.js"></script>    
 
   <script type="text/javascript">
     $(document).ready(function(){ 
       $('.toggle-menu').jPushMenu(); 
+       $('.popup-gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        tLoading: 'Loading image #%curr%...',
+        mainClass: 'mfp-img-mobile',
+        gallery: {
+          enabled: true,
+          navigateByImgClick: true,
+          preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+        },
+        image: {
+          tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+          
+        }
+      });
     });
   </script>
 </head>
@@ -52,8 +72,32 @@ home.html<!DOCTYPE html>
   </div>
   <div id="content">
     <div class="wrapper">
-
+    <div class="gallery-wrap">
+      <h2>Tour Catalyst</h2>
+      <div class="html-code grid-of-images">
+        <div class="popup-gallery">
+          <a href="assets/images/gallery-thumb-1.jpg"><img src="assets/images/gallery-thumb-1.jpg" width="30%" /></a>
+          <a href="assets/images/gallery-thumb-2.jpg"><img src="assets/images/gallery-thumb-2.jpg" width="30%" /></a>
+          <a href="assets/images/gallery-thumb-3.jpg"><img src="assets/images/gallery-thumb-3.jpg" width="30%" /></a>
+          <a href="assets/images/gallery-thumb-4.jpg"><img src="assets/images/gallery-thumb-4.jpg" width="30%" /></a>
+          <a href="assets/images/gallery-thumb-5.jpg"><img src="assets/images/gallery-thumb-5.jpg" width="30%" /></a>
+          <a href="assets/images/gallery-thumb-6.jpg"><img src="assets/images/gallery-thumb-6.jpg" width="30%" /></a>
+        </div>
+      </div>
+      <div class="gallery-wrap">
+      <h2>Yorkville Run</h2>
+      <div class="html-code grid-of-images">
+        <div class="popup-gallery">
+          <a href="assets/images/gallery-thumb-1.jpg"><img src="assets/images/gallery-thumb-1.jpg" width="30%" /></a>
+          <a href="assets/images/gallery-thumb-2.jpg"><img src="assets/images/gallery-thumb-2.jpg" width="30%" /></a>
+          <a href="assets/images/gallery-thumb-3.jpg"><img src="assets/images/gallery-thumb-3.jpg" width="30%" /></a>
+          <a href="assets/images/gallery-thumb-4.jpg"><img src="assets/images/gallery-thumb-4.jpg" width="30%" /></a>
+          <a href="assets/images/gallery-thumb-5.jpg"><img src="assets/images/gallery-thumb-5.jpg" width="30%" /></a>
+          <a href="assets/images/gallery-thumb-6.jpg"><img src="assets/images/gallery-thumb-6.jpg" width="30%" /></a>
+        </div>
+      </div>
     </div>
+  </div>
   </div>
   <div id="footer">
     <div class="wrapper">

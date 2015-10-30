@@ -486,6 +486,20 @@ a.bio p.link img {
   max-width: 500px;
   border: 1px solid #b0b0b0;
 }
+.gallery-wrapper {
+  margin: 60px 0px;
+}
+.gallery-wrapper h2 {
+  color: #0c2c49;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+.popup-gallery {
+  margin: 20px 0 0 0;
+}
+.popup-gallery img {
+  margin: 0 3% 3% 0;
+}
 .simplePopup .right p {
   font-size: 15px;
   margin: 0px 0px 10px 0px;
