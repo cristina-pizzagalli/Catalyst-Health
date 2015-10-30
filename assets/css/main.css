@@ -33,6 +33,11 @@ h3 {
   line-height: 1;
   text-transform: uppercase;
 }
+h4 {
+  font-weight: 200;
+  font-size: 15px;
+  margin: 5px 0px 10px 0px;
+}
 p {
   font-weight: 300;
   margin: 30px 0px;
@@ -397,5 +402,128 @@ body.home #footer .wrapper {
 }
 .no-touch #contact {
   background-attachment: fixed;
+}
+
+.simplePopup {
+  display: none;
+  z-index: 9999999999;
+  color:#fff;
+  padding: 12px;
+  width: 80%;
+  min-width: 80%;
+   position:fixed;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.simplePopup .left {
+  display: block;
+  width: 40%;
+  float: left;
+}
+.simplePopup .left img {
+  width: 90%;
+  border: 1px solid #ffffff;
+  margin: 10px 0px 0px 0px
+}
+.simplePopup .right {
+  display: block;
+  width: 60%;
+  float: right;
+  padding-top: 5px;
+}
+.bio {
+  display: block;
+  width: 33.3%;
+  float: left;
+  overflow: hidden;
+  margin: 60px 0px;
+}
+a.bio {
+  text-decoration: none;
+}
+a.bio h3 {
+  text-decoration: none;
+  color: #0c2c49;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+a.bio h4  {
+  text-decoration: none;
+  color: #0c2c49;
+  font-size: 16px;
+}
+a.bio p  {
+  color: #0c2c49;
+  margin: 0px;
+  font-size: 16px;
+}
+a.bio p.link  {
+  color: #f05231;
+  margin: 20px 0px 0px 0px;
+  font-size: 18px;
+  display: inline-block;
+}
+a.bio p.link:hover  {
+  text-decoration: underline;
+}
+a.bio p.link img {
+  width: 25px;
+  float: right;
+  border: none;
+  margin: 2px 0px 0px 10px;
+}
+.bio .wrapper {
+  display: block;
+  width: 75%;
+  margin: 0;
+}
+.bio img {
+  width: 100%;
+  margin: 20px 0px;
+  max-width: 500px;
+  border: 1px solid #b0b0b0;
+}
+.simplePopup .right p {
+  font-size: 15px;
+  margin: 0px 0px 10px 0px;
+}
+.simplePopup .left .links {
+  margin: 20px 0px 0px 0px;
+}
+.simplePopup .left a {
+  font-size: 15px;
+  color: #f05231;
+  display: block;
+  line-height: 1;
+  margin: 0px 0px 10px 0px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; 
+}
+.simplePopup .left a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.simplePopupClose {
+  float: right;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 25px;
+}
+.simplePopupClose img {
+  width: 100%
+}
+.simplePopupBackground {
+  display: none;
+  background: #1f303e;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999999999;
 }
 

@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="assets/js/jquery.simplePopup.js"></script> 
 
   <!-- bxSlider CSS file -->
   <link rel="stylesheet" type="text/css" href="assets/css/jPushMenu.css" />
@@ -21,6 +22,15 @@
   <script type="text/javascript">
     $(document).ready(function(){ 
       $('.toggle-menu').jPushMenu(); 
+      $('.show1').click(function(){
+        $('#pop1').simplePopup();
+      });
+      $('.show2').click(function(){
+        $('#pop2').simplePopup();
+      });
+      $('.show3').click(function(){
+        $('#pop3').simplePopup();
+      });
     });
   </script>
 </head>
@@ -52,7 +62,135 @@
   </div>
   <div id="content">
     <div class="wrapper">
-    
+    <a href="#" class="show1 bio">
+      <div class="wrapper">
+        <h3>Dr. Craig McNamee</h3>
+        <h4>BSc. Hons (Kin), DC, ART®, CSCS.</h4>
+        <img src="assets/images/team-placeholder-1.jpg"/>
+        <p>
+          Co-Founder/Chiropractor</br>
+          Certified Conditioning Specialist</br>
+          Active Release Techniques Provider</br>
+          Medical Acupuncture Practitioner</p>
+        <p class="link">Read Bio <img src="assets/images/readmore.png"/></p>
+      </div>
+    </a>
+    <a href="#" class="show2 bio">
+      <div class="wrapper">
+        <h3>Dr. Adam Reynolds</h3>
+        <h4>BHSc, DC, CSCS, ART, CGFI.</h4>
+        <img src="assets/images/team-placeholder-2.jpg"/>
+        <p>
+          Co-Founder/Chiropractor</br>
+          Strength and Conditioning Coach</br>
+          Active Release Techniques Provider</br>
+          Certified Golf Fitness Instructor</br>
+        </p>
+        <p class="link">Read Bio <img src="assets/images/readmore.png"/></p>
+      </div>
+    </a>
+    <a href="#" class="show3 bio">
+      <div class="wrapper">
+        <h3>Gracee Shorter</h3>
+        <h4>BCom</h4>
+        <img src="assets/images/team-placeholder-3.jpg"/>
+        <p>
+          Client Relations Manager</p>
+        <p class="link">Read Bio <img src="assets/images/readmore.png"/></p>
+      </div>
+    </a>
+    <div class="clear"></div>
+     <a href="#" class="show1 bio">
+      <div class="wrapper">
+        <h3>Dr. Craig McNamee</h3>
+        <h4>BSc. Hons (Kin), DC, ART®, CSCS.</h4>
+        <img src="assets/images/team-placeholder-1.jpg"/>
+        <p>
+          Co-Founder/Chiropractor</br>
+          Certified Conditioning Specialist</br>
+          Active Release Techniques Provider</br>
+          Medical Acupuncture Practitioner</p>
+        <p class="link">Read Bio <img src="assets/images/readmore.png"/></p>
+      </div>
+    </a>
+    <a href="#" class="show2 bio">
+      <div class="wrapper">
+        <h3>Dr. Adam Reynolds</h3>
+        <h4>BHSc, DC, CSCS, ART, CGFI.</h4>
+        <img src="assets/images/team-placeholder-2.jpg"/>
+        <p>
+          Co-Founder/Chiropractor</br>
+          Strength and Conditioning Coach</br>
+          Active Release Techniques Provider</br>
+          Certified Golf Fitness Instructor</br>
+        </p>
+        <p class="link">Read Bio <img src="assets/images/readmore.png"/></p>
+      </div>
+    </a>
+    <a href="#" class="show3 bio">
+      <div class="wrapper">
+        <h3>Gracee Shorter</h3>
+        <h4>BCom</h4>
+        <img src="assets/images/team-placeholder-3.jpg"/>
+        <p>
+          Client Relations Manager</p>
+        <p class="link">Read Bio <img src="assets/images/readmore.png"/></p>
+      </div>
+    </a>   
+    <div class="clear"></div>
+    <div id="pop1" class="simplePopup">
+      <h3>Dr. Craig McNamee</h3>
+      <h4>BSc. Hons (Kin), DC, ART®, CSCS.</h4>
+      <div class="left">
+        <img src="assets/images/team-placeholder-1.jpg"/>
+        <div class="links">
+          <a href="#" target="blank">Active Release</a>
+          <a href="#" target="blank">McMaster Medical Acupuncture</a>
+          <a href="#" target="blank">NSCA Lift</a>
+        </div>
+      </div>
+      <div class="right">
+        <p>With over 10 years of experience in the health and fitness industry, Dr. Craig McNamee’s vision has evolved. With his diverse background, Craig is able to utilize a variety of techniques to unleash his client’s ultimate potential. He feels with proper education, motivation and communication, he can guide his clientele towards optimal health one-step at a time.</p>
+        <p>Craig believes in accountability. This partnership focused on the overall health outcome is the difference. He uses this method of guiding others to focus on their health and, if need be, make behavioral changes in order to thrive.</p>
+        <p>Seeing firsthand the benefit of employing Active Release Techniques® Soft Tissue Treatment (ART®), Medical Acupuncture, and Premium Personal Training, Dr. McNamee is able to re-align the body utilizing its connective tissue system. He employs this unique skill set in order to maximize his client’s success and take their healthcare to the next level.</p>
+        <p>Dr. Craig McNamee will be his client’s catalyst to health.</p>
+      </div>
+    </div>
+    <div id="pop2" class="simplePopup">
+      <h3>Dr. Adam Reynolds</h3>
+      <h4>BHSc, DC, CSCS, ART, CGFI.</h4>
+      <div class="left">
+        <img src="assets/images/team-placeholder-2.jpg"/>
+        <div class="links">
+          <a href="#" target="blank">Active Release</a>
+          <a href="#" target="blank">McMaster Medical Acupuncture</a>
+          <a href="#" target="blank">NSCA Lift</a>
+        </div>
+      </div>
+      <div class="right">
+        <p>With over 10 years of experience in the health and fitness industry, Dr. Craig McNamee’s vision has evolved. With his diverse background, Craig is able to utilize a variety of techniques to unleash his client’s ultimate potential. He feels with proper education, motivation and communication, he can guide his clientele towards optimal health one-step at a time.</p>
+        <p>Craig believes in accountability. This partnership focused on the overall health outcome is the difference. He uses this method of guiding others to focus on their health and, if need be, make behavioral changes in order to thrive.</p>
+        <p>Seeing firsthand the benefit of employing Active Release Techniques® Soft Tissue Treatment (ART®), Medical Acupuncture, and Premium Personal Training, Dr. McNamee is able to re-align the body utilizing its connective tissue system. He employs this unique skill set in order to maximize his client’s success and take their healthcare to the next level.</p>
+        <p>Dr. Craig McNamee will be his client’s catalyst to health.</p>
+      </div>
+    </div>
+    <div id="pop3" class="simplePopup">
+      <h3>Gracee Shorter</h3>
+      <h4>BCom</h4>
+      <div class="left">
+        <img src="assets/images/team-placeholder-3.jpg"/>
+        <div class="links">
+          <a href="#" target="blank">Active Release</a>
+          <a href="#" target="blank">McMaster Medical Acupuncture</a>
+          <a href="#" target="blank">NSCA Lift</a>
+        </div>
+      </div>
+      <div class="right">
+        <p>With over 10 years of experience in the health and fitness industry, Dr. Craig McNamee’s vision has evolved. With his diverse background, Craig is able to utilize a variety of techniques to unleash his client’s ultimate potential. He feels with proper education, motivation and communication, he can guide his clientele towards optimal health one-step at a time.</p>
+        <p>Craig believes in accountability. This partnership focused on the overall health outcome is the difference. He uses this method of guiding others to focus on their health and, if need be, make behavioral changes in order to thrive.</p>
+        <p>Seeing firsthand the benefit of employing Active Release Techniques® Soft Tissue Treatment (ART®), Medical Acupuncture, and Premium Personal Training, Dr. McNamee is able to re-align the body utilizing its connective tissue system. He employs this unique skill set in order to maximize his client’s success and take their healthcare to the next level.</p>
+        <p>Dr. Craig McNamee will be his client’s catalyst to health.</p>
+      </div>
     </div>
   </div>
   <div id="footer">
