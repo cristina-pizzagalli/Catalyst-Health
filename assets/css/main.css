@@ -139,7 +139,7 @@ body.gallery #header {
 }
 body.home #header {
   background: url(../images/home-bg.jpg) no-repeat bottom;
-  background-size: cover;
+  background-size: 100%;
   background-attachment: fixed;
 }
 body.home #header .logo {
@@ -440,7 +440,7 @@ body.home #footer .wrapper {
 }
 .simplePopup .left {
   display: block;
-  width: 40%;
+  width: 30%;
   float: left;
 }
 .simplePopup .left img {
@@ -450,7 +450,7 @@ body.home #footer .wrapper {
 }
 .simplePopup .right {
   display: block;
-  width: 60%;
+  width: 70%;
   float: right;
   padding-top: 5px;
 }
@@ -497,11 +497,11 @@ a.bio p.link img {
 }
 .bio .wrapper {
   display: block;
-  width: 75%;
-  margin: 0;
+  width: 85%;
+  margin: 0 auto;
 }
 .bio img {
-  width: 100%;
+  width: 80%;
   margin: 20px 0px;
   max-width: 500px;
   border: 1px solid #b0b0b0;
