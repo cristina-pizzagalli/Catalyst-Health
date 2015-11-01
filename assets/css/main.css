@@ -7,6 +7,7 @@ body {
   font-size: 17px;
   color: #0c2c49;
   line-height: 1.4;
+  letter-spacing: .5px;
   background: #ffffff url(../images/pattern.jpg);
 }
 strong {
@@ -59,6 +60,26 @@ p a:hover {
 #content ul li {
  list-style-type: disc;
  margin: 0px 0px 5px 0px;
+}
+
+#content li.tabbed ul, #content .static-content ul {
+    list-style: none;
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+#content li.tabbed ul li, #content .static-content ul li { 
+
+    list-style: none;
+    list-style-type: none;
+    padding-left: 1em; 
+    text-indent: -.9em;
+}
+
+#content li.tabbed ul li:before,  #content .static-content ul li:before {
+    content: "•  ";
+    color: #f05231; /* or whatever color you prefer */
 }
 .wrapper {
   display: block;
@@ -184,7 +205,6 @@ body.home #header a.home-header:hover {
   overflow: hidden;
   background: url(../images/home-gallery-callout.jpg) no-repeat center;
   background-size: cover;
-  background-attachment: fixed;
 }
 #content ul.mission-home {
   display: table;
@@ -271,8 +291,8 @@ ul#tabs li {
   text-transform: uppercase;
   text-decoration: none;
   background: #ffffff;
-  padding: 2px 20px;
-  font-size: 19px;
+  padding: 8px 20px;
+  font-size: 17px;
   cursor: pointer;
   cursor: hand;
   -webkit-transition: all 0.2s ease-in-out;
@@ -366,7 +386,7 @@ body.home #footer .wrapper {
 }
 #footer .wrapper .social img {
   display: block;
-  width: 40px;
+  width: 48px;
 }
 #footer .wrapper .legal {
   font-size: 12px;
@@ -536,6 +556,7 @@ a.bio p.link img {
   position: fixed;
   height: 100%;
   width: 100%;
+  overflow: hidden;
   top: 0;
   left: 0;
   z-index: 999999999;
