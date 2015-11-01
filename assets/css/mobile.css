@@ -103,6 +103,11 @@
   .gallery-wrapper {
     margin: 20px 0px;
   }
+  body.home #header {
+    background: url(../images/home-bg.jpg) no-repeat top;
+    background-size: cover;
+    background-attachment: scroll;
+  }
   body.about #header {
     background:  url(../images/about-us-bg.jpg) no-repeat top right;
     background-size: 170%;
