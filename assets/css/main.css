@@ -138,8 +138,8 @@ body.gallery #header {
   background-attachment: fixed;
 }
 body.home #header {
-  background: url(../images/home-bg.jpg) no-repeat bottom;
-  background-size: 100%;
+  background: url(../images/home-bg.jpg) no-repeat top;
+  background-size: cover;
   background-attachment: fixed;
 }
 body.home #header .logo {
