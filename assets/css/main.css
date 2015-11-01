@@ -103,7 +103,7 @@ p a:hover {
   width: 144px;
 }
 body.about #header {
-  background: url(../images/about-us-bg.jpg) no-repeat center center;
+  background: url(../images/about-us-bg.jpg) no-repeat top right;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -460,7 +460,7 @@ body.home #footer .wrapper {
   width: 33.3%;
   float: left;
   overflow: hidden;
-  margin: 60px 0px;
+  margin: 60px 0px 20px 0px;
 }
 a.bio {
   text-decoration: none;
@@ -474,17 +474,17 @@ a.bio h3 {
 a.bio h4  {
   text-decoration: none;
   color: #0c2c49;
-  font-size: 16px;
+  font-size: 15px;
 }
 a.bio p  {
   color: #0c2c49;
   margin: 0px;
-  font-size: 16px;
+  font-size: 15px;
 }
 a.bio p.link  {
   color: #f05231;
   margin: 20px 0px 0px 0px;
-  font-size: 18px;
+  font-size: 17px;
   display: inline-block;
 }
 a.bio p.link:hover  {
@@ -498,11 +498,11 @@ a.bio p.link img {
 }
 .bio .wrapper {
   display: block;
-  width: 75%;
-  margin: 0 auto;
+  width: 80%;
+  margin: 0;
 }
 .bio img {
-  width: 100%;
+  width: 90%;
   margin: 20px 0px;
   max-width: 500px;
   border: 1px solid #b0b0b0;
@@ -519,7 +519,7 @@ a.bio p.link img {
   margin: 20px 0 0 0;
 }
 .popup-gallery img {
-  margin: 0 3% 3% 0;
+  margin: 1.5%;
 }
 .simplePopup .right p {
   font-size: 15px;

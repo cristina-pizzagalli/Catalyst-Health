@@ -4,6 +4,9 @@
     width: 100%;
     margin: 80px auto;
   }
+  .ul-wrap {
+   min-height: auto;
+ }
 }
 @media screen and (max-width: 900px) {
   .popup-gallery img {
@@ -93,6 +96,41 @@
   }
   .gallery-wrapper {
     margin: 20px 0px;
+  }
+  body.about #header {
+    background: red url(../images/about-us-bg.jpg) no-repeat top right;
+    background-size: 170%;
+    background-attachment: scroll;
+  }
+  body.careers #header {
+    background: red url(../images/careers-bg.jpg) no-repeat top right;
+    background-size: 170%;
+    background-attachment: scroll;
+  }
+  body.services #header {
+    background: red url(../images/services-bg.jpg) no-repeat top right;
+    background-size: 170%;
+    background-attachment: scroll;
+  }
+  body.media #header {
+    background: red url(../images/media-bg.jpg) no-repeat top right;
+    background-size: 170%;
+    background-attachment: scroll;
+  }
+  body.member #header {
+    background: red url(../images/member-bg.jpg) no-repeat top right;
+    background-size: 170%;
+    background-attachment: scroll;
+  }
+  body.team #header {
+    background: red url(../images/team-bg.jpg) no-repeat top right;
+    background-size: 170%;
+    background-attachment: scroll;
+  }
+  body.gallery #header {
+    background: red url(../images/gallery-bg.jpg) no-repeat top right;
+    background-size: 170%;
+    background-attachment: scroll;
   }
 }
 @media screen and (max-width: 500px) {
