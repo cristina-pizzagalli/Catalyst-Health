@@ -501,6 +501,12 @@ a.bio p.link img {
   width: 80%;
   margin: 0;
 }
+.bio:nth-of-type(3n-1) .wrapper {
+    margin: 0 auto;
+} 
+.bio:nth-of-type(3n) .wrapper {
+    margin: 0 0 0 20%;
+} 
 .bio img {
   width: 90%;
   margin: 20px 0px;
@@ -514,6 +520,9 @@ a.bio p.link img {
   color: #0c2c49;
   font-size: 24px;
   text-transform: capitalize;
+}
+.gallery-wrap h2 {
+  margin-left: 1.5%;
 }
 .popup-gallery {
   margin: 20px 0 0 0;

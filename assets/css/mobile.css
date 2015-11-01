@@ -94,6 +94,12 @@
     overflow: hidden;
     margin: 40px 0px;
   }
+  .bio:nth-of-type(3n-1) .wrapper {
+    margin: 0;
+  } 
+  .bio:nth-of-type(3n) .wrapper {
+      margin: 0;
+  } 
   .gallery-wrapper {
     margin: 20px 0px;
   }
