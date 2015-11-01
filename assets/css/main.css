@@ -219,6 +219,7 @@ body.home #header a.home-header:hover {
   display: block;
   width: 76%;
   margin: 0px auto;
+   min-height: 230px;
   padding: 25px;
   background: #f05231;
   border-radius: 8px;
@@ -497,11 +498,11 @@ a.bio p.link img {
 }
 .bio .wrapper {
   display: block;
-  width: 85%;
+  width: 75%;
   margin: 0 auto;
 }
 .bio img {
-  width: 80%;
+  width: 100%;
   margin: 20px 0px;
   max-width: 500px;
   border: 1px solid #b0b0b0;
