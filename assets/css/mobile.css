@@ -62,7 +62,6 @@
     overflow: hidden;
     background: url(../images/home-gallery-callout.jpg) no-repeat left;
     background-size: cover;
-    background-attachment: fixed;
   }
 }
 @media screen and (max-width: 800px) {
